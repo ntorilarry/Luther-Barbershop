@@ -13,7 +13,7 @@ function Cta() {
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-once="true"
-            data-aos-anchor-placement="center-center"
+           
           >
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               <span className="block">Book Appointment</span>

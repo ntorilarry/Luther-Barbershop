@@ -73,8 +73,6 @@ const products2 = [
   // More products...
 ];
 
-
-
 function Services() {
   return (
     <div className="bg-[#131311]" id="services">
@@ -100,20 +98,18 @@ function Services() {
                       data-aos="fade-up"
                       data-aos-duration="2000"
                       data-aos-once="true"
-                      data-aos-anchor-placement="center-center"
-                      className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3 zoom"
+                      className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3 "
                     >
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="w-full h-full object-center object-cover group-hover:opacity-75 "
+                        className="w-full h-full object-center object-cover group-hover:opacity-75 zoomer "
                       />
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-duration="2000"
                       data-aos-once="true"
-                      data-aos-anchor-placement="center-center"
                       className="mt-4 flex items-center justify-between text-base font-medium text-white "
                     >
                       <h3 className="z-10">{product.name}</h3>
@@ -135,20 +131,18 @@ function Services() {
                       data-aos="fade-up"
                       data-aos-duration="2000"
                       data-aos-once="true"
-                      data-aos-anchor-placement="center-center"
-                      className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3 zoom"
+                      className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3 "
                     >
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="w-full h-full object-center object-cover group-hover:opacity-75"
+                        className="w-full h-full object-center object-cover group-hover:opacity-75 zoomer"
                       />
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-duration="2000"
                       data-aos-once="true"
-                      data-aos-anchor-placement="center-center"
                       className="mt-4 flex items-center justify-between text-base font-medium text-white z-10"
                     >
                       <h3 className="z-10">{product.name}</h3>

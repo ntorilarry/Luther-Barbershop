@@ -9,7 +9,7 @@ function Testimonials() {
         class="bg-white flex items-center justify-center flex-col testim"
         style={{ backgroundImage: `url(${Background})` }}
       >
-        <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-anchor-placement="center-center">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
           <h1 className="text-black text-3xl pb-4">Testimonials</h1>
           <div class=" text-center">
             <div class="text-7xl text-blue-300 leading-10">”</div>

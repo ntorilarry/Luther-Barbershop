@@ -9,7 +9,7 @@ function Appointment() {
           data-aos="fade-left"
           data-aos-duration="2000"
           data-aos-once="true"
-          data-aos-anchor-placement="center-center"
+       
           className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
         >
           <img
@@ -25,7 +25,7 @@ function Appointment() {
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-once="true"
-            data-aos-anchor-placement="center-center"
+           
             className="max-w-md mx-auto sm:max-w-lg lg:mx-0"
           >
             <p className="mt-4 text-lg text-gray-500 sm:mt-3">

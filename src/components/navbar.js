@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import "../styles/navbar.css";
 import Logo from "../assets/logo.png";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

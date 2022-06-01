@@ -1,0 +1,79 @@
+.hero-title {
+    max-width: 10ch;
+}
+
+.bg-random {
+    background-image: url(https://source.unsplash.com/1980x1080/?barbershop);
+    /* animation: scale 40s linear infinite; */
+}
+
+/* @keyframes scale {
+    50% {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
+} */
+
+.hero-subtitle {
+    max-width: 50ch;
+}
+
+
+.but {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 38px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: #1DC9A0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.15s linear;
+}
+
+.but:hover {
+    background-color: rgba(29, 201, 160, 0.08);
+    border-color: #1DC9A0;
+    color: #1DC9A0;
+    transform: translateY(-5px) scale(1.05);
+}
+
+.but:active {
+    background-color: transparent;
+    border-color: #1DC9A0;
+    color: #1DC9A0;
+    transform: translateY(5px) scale(0.95);
+}
+
+.but:disabled {
+    background-color: rgba(255, 255, 255, 0.16);
+    color: #8E8E93;
+    border-color: #8E8E93;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hero-title {
+        font-size: 3.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .bg-random {
+        animation: none;
+        -webkit-animation: none;
+    }
+
+}

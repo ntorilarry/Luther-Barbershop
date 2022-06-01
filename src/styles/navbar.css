@@ -1,0 +1,12 @@
+.navNEW {
+    padding-left: 8rem;
+    padding-right: 8rem
+}
+
+@media only screen and (max-width: 600px) {
+    .navNEW {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+}

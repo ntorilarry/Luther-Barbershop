@@ -73,9 +73,7 @@ const products2 = [
   // More products...
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+
 
 function Services() {
   return (
